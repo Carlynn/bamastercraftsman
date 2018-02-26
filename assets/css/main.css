@@ -246,9 +246,12 @@ nav .button-collapse {
   color: black;
 }
 .fullscreen {
-  height: 100vh;
-  margin-top: -69px;
-  padding-top: 69px;
+  min-height: 100vh;
+  margin-top: -65px;
+  padding-top: 65px;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+}
+.about-content {
+  padding-top: 1.5rem;
 }
