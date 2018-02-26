@@ -247,4 +247,8 @@ nav .button-collapse {
 }
 .fullscreen {
   height: 100vh;
+  margin-top: -69px;
+  padding-top: 69px;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
