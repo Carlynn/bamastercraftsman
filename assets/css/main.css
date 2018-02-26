@@ -246,9 +246,5 @@ nav .button-collapse {
   color: black;
 }
 .fullscreen {
-  height: 100%;
-  width: 90%;
-  position: absolute;
-  top: 3%;
-  left: 5%;
+  height: 100vh;
 }
