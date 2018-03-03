@@ -1,4 +1,4 @@
-body {
+html {
   font-family: "Open Sans", arial, sans-serif;
   color: black;
 }
@@ -344,6 +344,9 @@ nav .button-collapse {
 }
 .services-image-container.active .services-image-text_mobile {
 	display: block;
+}
+.gallery-margin {
+  margin-bottom: 20px;
 }
 /* .services-image-container {
   position: relative;
