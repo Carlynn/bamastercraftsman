@@ -451,6 +451,7 @@ height: auto;
     }
     h1 a {
       font-size: 20px;
+      line-height: 0;
     }
     .slider .slides li .caption {
       top: 20% !important;
