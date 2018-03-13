@@ -421,3 +421,41 @@ height: auto;
 .icon-footer {
   padding-right: 10px;
 }
+.services-body-text {
+  padding-left: 4rem !important;
+}
+
+/* ipad */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    nav .brand-logo {
+        text-align: center;
+        /* line-height: 46px; */
+        width: 100%;
+    }
+    .services-body-text {
+      padding-left: .75rem !important;
+    }
+}
+
+/* mobile */
+@media only screen and (max-width: 767px) {
+    nav .brand-logo {
+        text-align: center;
+        font-size: 12px;
+        line-height: 46px;
+        width: 100%;
+    }
+    h1 a {
+      font-size: 20px;
+    }
+    .slider .slides li .caption {
+      top: 25%;
+    }
+    .services-body-text {
+      padding-left: .75rem !important;
+    }
+    h2 {
+      font-size: 20px;
+      margin-bottom: 0 !important;
+    }
+}
