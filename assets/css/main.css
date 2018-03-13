@@ -445,8 +445,8 @@ height: auto;
         line-height: 46px;
         width: 100%;
     }
-    h1 .footer-title {
-      font-size: 12px;
+    h1.footer-title {
+      font-size: 12px !important;
       line-height: 0;
     }
     h1 a {
@@ -463,6 +463,6 @@ height: auto;
       margin-bottom: 0 !important;
     }
     .footer-copyright {
-      font-size: 10px;
+      font-size: 10px !important;
     }
 }
