@@ -424,6 +424,10 @@ height: auto;
 .services-body-text {
   padding-left: 4rem !important;
 }
+.thumbnail {
+  width: 15rem;
+  height: 15rem;
+}
 
 /* ipad */
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
@@ -434,6 +438,10 @@ height: auto;
     }
     .services-body-text {
       padding-left: .75rem !important;
+    }
+    .thumbnail {
+      width: 10rem;
+      height: 10rem;
     }
 }
 
@@ -465,5 +473,9 @@ height: auto;
     }
     .footer-copyright {
       font-size: 10px !important;
+    }
+    .thumbnail {
+      width: 9rem;
+      height: 9rem;
     }
 }
