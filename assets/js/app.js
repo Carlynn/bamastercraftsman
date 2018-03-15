@@ -87,11 +87,7 @@ let galleryCustom = [
 $(document).ready(function(){
   $("head").load("header.html");
 
-  // $.get("nav.html", function(data){
-  //   $("#nav-placeholder").replaceWith(data);
-  // });
-
-  $("#nav-placeholder").load("nav.html");
+  // $("#nav-placeholder").load("nav.html");
 
   $.get("footer.html", function(data){
     $("#footer-placeholder").replaceWith(data);
